@@ -19,3 +19,24 @@ Projeyi bilgisayarınıza kurmadan, doğrudan web tarayıcınız üzerinden test
   - **Sürüklenme (Drag) Saldırıları:** Araç hedeflerken veya kayarak sürüklenirken tespit etme.
 - **Güvenlik Duvarı (Firewall) ve Otopilot:** Korsan sinyalleri yakaladığında sahte değerleri reddeden INS (Kör Uçuş) Otopilot devresi kurgusu.
 - **Otomatik Simülasyon Senaryoları:** Jüri sunumları için tek tuşla rastgele ataklar üreten akıllı "Otomatik Simülasyon"
+
+## 🛠️ Kurulum
+
+Projenin çalışması için bilgisayarınızda **Python 3.7+** yüklü olmalıdır. İndirdikten sonra terminalinizde şu komut ile kütüphaneleri yükleyin:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 💻 Kullanım
+
+Uygulamayı ve web panelini ayağa kaldırmak için dizin içerisinde sadece şu komutu çalıştırmanız yeterlidir:
+
+```bash
+streamlit run guvenlik_arayuz.py
+```
+
+Bu komut, varsayılan web tarayıcınızda (`http://localhost:8501`) interaktif güvenlik panelini açacaktır.
+
+---
+*Hackathon ruhuyla kodlanmıştır! 🌌*
